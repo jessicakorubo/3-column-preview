@@ -1,0 +1,24 @@
+ @media screen and (max-width: 500px) {
+    
+    .background {
+        width: 90%;
+        margin: auto;
+     }
+     
+     .container {
+        height: 25rem;
+     }
+     #con1 {
+        background-color: yellow;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    }
+    #con2 {
+        background-color: aqua;
+    }
+    #con3 {
+        background-color: green;
+    }
+ }
+ 
