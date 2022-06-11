@@ -1,24 +1,50 @@
+
  @media screen and (max-width: 500px) {
     
     .background {
         width: 90%;
         margin: auto;
      }
-     
      .container {
-        height: 25rem;
+        height: 22rem;
+        padding: 3rem 3rem;
+     }
+     .container h1{
+        color: hsl(0, 0%, 95%);
+    }
+     .container p {
+        color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 2.5rem;
      }
      #con1 {
-        background-color: yellow;
+        background-color: hsl(31, 77%, 52%);
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-    
     }
     #con2 {
-        background-color: aqua;
+        background-color: hsl(184, 100%, 22%);
     }
     #con3 {
-        background-color: green;
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    a {
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 95%);
+        padding: 0.5rem 1rem;
+        width: 2rem;
+        text-decoration: none;
+    }
+    #con1 a {
+        color:hsl(31, 77%, 52%);
+    }
+    #con2 a {
+        color: hsl(184, 100%, 22%);
+    }
+    #con3 a {
+        color: hsl(179, 100%, 13%);
     }
  }
  
